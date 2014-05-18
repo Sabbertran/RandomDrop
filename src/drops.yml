@@ -1,0 +1,14 @@
+### RandomDrop Drops file ###
+## All drops are defined here ##
+# Edit this file to change drops and drop rates #
+
+# Region names are always lower case #
+
+# Region:Chance:ItemID:Amount:DamageValue (Optional) #
+# Chances are from 1 to 10. 1 is the highest chance and 10 the lowest
+
+# For CrackShot Weapons use CS:Region:Chance:Name:Amount #
+
+TestRegion:1:3:2
+
+

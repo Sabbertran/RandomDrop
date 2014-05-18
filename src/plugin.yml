@@ -1,0 +1,70 @@
+name: RandomDrop
+main: me.sabbertran.randomdrop.RandomDrop
+version: 1.0.3
+website: http://www.sabbertran.tk/
+author: Sabbertran
+description: Drops Items around a player in a random interval
+commands:
+  randomdrop:
+    description: Toggles random item drops on/off, changes the drop chance and reloads the plugin
+    usage: "/randomdrop <on/off/chance/reload>"
+    aliases: [rd]
+  rdregion:
+    description: Regions for RandomDrops
+    usage: "/rdregion"
+    aliases: [rdr]
+permissions:
+    randomdrop.randomdrop:
+        description: RandomDrop Command
+        default: false
+    randomdrop.on:
+        description: On Command
+        default: false
+    randomdrop.off:
+        description: Off Command
+        default: false
+    randomdrop.reload:
+        description: Reload Command
+        default: false
+    randomdrop.chance:
+        description: Chance Command
+        default: false
+    randomdrop.listworlds:
+        description: Listworlds Command
+        default: false
+    randomdrop.addworld:
+        description: Addworld Command
+        default: false
+    randomdrop.removeworld:
+        description: Removeworld Command
+        default: false    
+    randomdrop.tool:
+        description: Tool Command
+        default: false    
+    randomdrop.region:
+        description: Region Command
+        default: false
+    randomdrop.region.pos1:
+        description: Region Position 1 Command
+        default: false
+    randomdrop.region.pos2:
+        description: Region Position 2 Command
+        default: false
+    randomdrop.region.postool:
+        description: Position Tool
+        default: false   
+    randomdrop.region.list:
+        description: Region list Command
+        default: false
+    randomdrop.region.create:
+        description: Region create Command
+        default: false
+    randomdrop.region.remove:
+        description: Region remove Command
+        default: false
+    randomdrop.region.priority:
+        description: Region priority Command
+        default: false
+    randomdrop.region.expand:
+        description: Region expand Command
+        default: false
